@@ -12,7 +12,6 @@ entry = tk.Entry(window)
 
 entry.grid(row=0,column=4)
 
-# button.pack()   you can't use both grid and pack
 
 def click(value):
     entry.insert(tk.END,value)
